@@ -1,0 +1,128 @@
+/* Basic Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Form Container */
+.form-container {
+    background: white;
+    padding: 40px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 30%;
+}
+
+/* Form Heading */
+h2 {
+    margin-bottom: 20px;
+}
+
+/* Labels */
+label {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+}
+
+/* Input Fields */
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Radio Buttons */
+.radio-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Button */
+button {
+    background-color: #f0bc01;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+    width: 105%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+nav {
+    background: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Video and Audio Styling */
+video, audio {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Sidebar (Aside) */
+aside {
+    background: white;
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+aside h3 {
+    margin-top: 0;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin: 5px 0;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+aside ul li a:hover {
+    text-decoration: underline;
+}
+.tags{
+    margin-left: 15%;
+    margin-top: 50%;
+}
+
